@@ -6,10 +6,10 @@
 
     "action": {
         "default_popup": "popup.html",
-        "default_icon": "assets/colorful_comments_logo.png"
+        "default_icon": "assets/colorful_comments_logo_128-removebg.png"
     },
     "icons": {
-        "48": "assets/colorful_comments_logo_128.png"
+        "128": "assets/colorful_comments_logo_128-removebg.png"
     },
     "permissions": [
         "activeTab", "storage"
