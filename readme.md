@@ -4,7 +4,7 @@ A Chrome extension that allows you to add colorful comments to online code edito
 
 <table>
   <tr>
-    <td><img src="assets/colorful_comments_logo_128-removebg.png" width="70"/></td>
+    <td><img src="assets/colorful_comments_logo_128-removebg.png" width="100"/></td>
     <td><h1 style="marginLeft: 10;">Colorful Comments Chrome Extension</h1></td>
   </tr>
 </table>
