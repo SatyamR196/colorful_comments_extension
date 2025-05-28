@@ -30,6 +30,9 @@ A Chrome extension that allows you to add colorful comments to online code edito
 - "//_" for highlighting comment while "//#" for seperating code into sections.
 - Easy to use interface, just install and refresh your page to see magic.
 
+### Available websites for use
+- [OneCompiler](https://onecompiler.com/)
+
 ## Installation
 - Clone the repository or download the zip file.
 - Open Chrome and go to `chrome://extensions/`.
