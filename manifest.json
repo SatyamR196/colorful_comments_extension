@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Colorful Comments for OneCompiler",
-    "version": "1.0",
-    "description": "Highlight special comment tags in C++ on onecompiler.com",
+    "name": "Colorful Comments for online code editors",
+    "version": "1.1",
+    "description": "Color and Highlight special comment tags",
 
     "action": {
         "default_popup": "popup.html",
@@ -17,9 +17,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://onecompiler.com/*",
-                "https://www.onlinegdb.com/*",
-                "https://maang.in/*"
+                "<all_urls>"
             ],
             "css": [
                 "styles.css"

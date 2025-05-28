@@ -4,7 +4,7 @@ A Chrome extension that allows you to add colorful comments to online code edito
 
 <table>
   <tr>
-    <td><img src="assets/colorful_comments_logo_128-removebg.png" width="50"/></td>
+    <td><img src="assets/colorful_comments_logo_128-removebg.png" width="70"/></td>
     <td><h1 style="marginLeft: 10;">Colorful Comments Chrome Extension</h1></td>
   </tr>
 </table>
@@ -22,6 +22,14 @@ A Chrome extension that allows you to add colorful comments to online code edito
 
 ![App Screenshot](/assets/example_dark.png)
 
+![App Screenshot](/assets/python_light.png)
+
+![App Screenshot](/assets/python_dark.png)
+
+![App Screenshot](/assets/maang_light.png)
+
+![App Screenshot](/assets/maang_dark.png)
+
 ## Features
 
 - Add colorful comments to your code, 6 types of comments available.
@@ -29,9 +37,17 @@ A Chrome extension that allows you to add colorful comments to online code edito
 - Along with text colour, you can also highlight the comments with a background color.
 - "//_" for highlighting comment while "//#" for seperating code into sections.
 - Easy to use interface, just install and refresh your page to see magic.
+- Supports most of the commonly used programming languages like CPP, JAVA, JS, PYTHON, MATLAB, SQL etc.
+- Supports most of the online code editors like Onecompiler, OnlineGDB, Codechef IDE etc.
 
 ### Available websites for use
+- [Google Colab](https://colab.research.google.com/drive/14fQDTXGVear47I6XMkFO33LKjNYJQFI1?usp=sharing)
 - [OneCompiler](https://onecompiler.com/)
+- [Algozenith IDE](https://maang.in/ide)
+- [OnlineGDB](https://www.onlinegdb.com/)
+- [Codechef IDE](https://www.codechef.com/ide)
+- [Programiz](https://www.programiz.com/python-programming/online-compiler/)
+- <i>It may work on other websites as well which are not mentioned here.</i>
 
 ## Installation
 - Clone the repository or download the zip file.
