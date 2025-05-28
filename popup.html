@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 10px;
+        }
+
+        label {
+            display: block;
+            margin: 8px 0;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1>Colorful Comments Settings</h1>
+        <div id="textColors">
+            <h2><u>Text Colors</u> <a href="https://onecompiler.com/cpp/43jb8yeaq">[Example Link]</a></h2>
+            <label><span>// (defalult comment)</span><input type="color" id="colorDefault" value="#32cd32"/></label>
+            <label><span>//! </span> <input type="color" id="colorImportant" value="#ff0000"/></label>
+            <label><span>//? </span> <input type="color" id="colorQuestion" value="#3b82f6"/></label>
+            <label><span>//* </span> <input type="color" id="colorInfo" value="#01BC01"/></label>
+            <label><span>//^ </span> <input type="color" id="colorNote" value="#ffd700"/></label>
+            <label><span>//& </span> <input type="color" id="colorSpecial" value="#ff69b4"/></label>
+            <label><span>//~ </span> <input type="color" id="colorMisc"  value="#ba55d3"/></label>
+            <label><span>/// </span> <input type="color" id="colorComment" value="#808080"/></label>
+            <label><span>//TODO </span><input type="color" id="colorTodo" value="#f07705"/></label>
+        </div>
+        <div id="highlightColor">
+            <h2><u>Background Highlight Colors</u></h2>
+            <label><span>//_</span><input type="color" id="bgHighlight" value="#ffee3a"/></label>
+            <label><span>//# </span> <input type="color" id="bgGrey" value="#808080"/></label>
+        </div>
+        <div id="btnContainer">
+            <button id="saveBtn" class="green">Save</button>
+            <button id="resetBtn" class="blue">Reset</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

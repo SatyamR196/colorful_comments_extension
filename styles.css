@@ -1,0 +1,76 @@
+body{
+    margin: 0.8rem;
+    padding: 0;
+}
+#main{
+    /* height: 200px; */
+    width: 350px;
+    /* display: flex  ; */
+    /* flex-direction: column; */
+    /* margin: 0; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+label{
+    display: flex;
+    justify-content: space-between;
+}
+label span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Cascadia Code', 'Times New Roman', Times, serif;
+}
+#main button{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Cascadia Code', 'Times New Roman', Times, serif;
+    /* background-color: rgb(76, 229, 0); */
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    /* margin-inline: 38%; */
+}
+#btnContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.blue {
+    /* color: rgb(15, 111, 255); */
+    background-color: rgb(15, 111, 255) ;
+    font-weight: bold;
+}
+
+.green {
+    background-color: rgb(76, 229, 0);
+    font-weight: bold;
+}
+
+.yellow {
+    color: #ff0;
+    font-weight: bold;
+}
+
+.pink {
+    color: #f0f;
+    font-weight: bold;
+}
+
+.purple {
+    color: #a0f;
+    font-weight: bold;
+}
+
+.mustard {
+    color: orange;
+    font-weight: bold;
+}

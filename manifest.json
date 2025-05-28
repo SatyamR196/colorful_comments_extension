@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Colorful Comments for OneCompiler",
+    "version": "1.0",
+    "description": "Highlight special comment tags in C++ on onecompiler.com",
+
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "colorful_comments_logo.png"
+    },
+    "icons": {
+        "48": "colorful_comments_logo_128.png"
+    },
+    "permissions": [
+        "activeTab", "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://onecompiler.com/*"
+            ],
+            "css": [
+                "styles.css"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
