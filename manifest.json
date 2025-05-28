@@ -6,10 +6,10 @@
 
     "action": {
         "default_popup": "popup.html",
-        "default_icon": "colorful_comments_logo.png"
+        "default_icon": "assets/colorful_comments_logo.png"
     },
     "icons": {
-        "48": "colorful_comments_logo_128.png"
+        "48": "assets/colorful_comments_logo_128.png"
     },
     "permissions": [
         "activeTab", "storage"
@@ -17,7 +17,9 @@
     "content_scripts": [
         {
             "matches": [
-                "https://onecompiler.com/*"
+                "https://onecompiler.com/*",
+                "https://www.onlinegdb.com/*",
+                "https://maang.in/*"
             ],
             "css": [
                 "styles.css"
