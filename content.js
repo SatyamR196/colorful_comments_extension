@@ -3,6 +3,8 @@ const commentSelectors = [
     '.ace_comment', // OneCompiler, onlinegdb
     '.mtk9',        // Maang.in (dark mode)
     '.mtk8',        // Maang.in (light mode)
+    '.cc3',        // github.com- wrap (light mode) won't work as this changes on every reload
+    '.cd1',        // github.com- no-wrap (light mode) won't work as this changes on every reload
     // Add more selectors here as needed
 ];
 
@@ -111,6 +113,7 @@ const observer = new MutationObserver(() => {
 const editorSelectors = [
     '.ace_layer.ace_text-layer', // OneCompiler, OnlineGDB
     '.view-lines',               // Maang.in
+    '.cm-content',               // github.com
     // Add more selectors here as needed
 ];
 
