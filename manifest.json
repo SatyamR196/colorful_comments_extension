@@ -12,7 +12,7 @@
         "128": "assets/colorful_comments_logo_128-removebg.png"
     },
     "permissions": [
-        "activeTab", "storage"
+        "storage"
     ],
     "content_scripts": [
         {
